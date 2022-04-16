@@ -1,0 +1,58 @@
+<button mat-button>Login</button>
+<button mat-raised-button>Login</button>
+<button mat-flat-button>Login</button>
+<button mat-stroked-button>Login</button>
+
+<hr>
+<button mat-flat-button color="primary">Login</button>
+<button mat-raised-button color="accent">Login</button>
+<button mat-flat-button color="warn">Login</button>
+<button mat-stroked-button disabled>Login</button>
+
+<hr>
+<button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+  <mat-icon>more_vert</mat-icon>
+</button>
+<button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+  <mat-icon>home</mat-icon>
+</button>
+<button mat-icon-button color="accent" aria-label="Example icon button with a menu icon">
+  <mat-icon>menu</mat-icon>
+</button>
+<button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+  <mat-icon>favorite</mat-icon>
+</button>
+
+<hr>
+
+<p>
+  <span matBadge="4" matBadgeOverlap="false">Text with a badge</span>
+</p>
+
+<p>
+  <span matBadge="1" matBadgeSize="large">Text with large badge</span>
+</p>
+
+<p>
+  Button with a badge on the left
+  <button mat-raised-button color="primary"
+          matBadge="8" matBadgePosition="before" matBadgeColor="warn">
+    Action
+  </button>
+</p>
+
+<p>
+  Button toggles badge visibility
+  <button mat-raised-button matBadge="7">
+    Hide
+  </button>
+</p>
+
+<p>
+  Icon with a badge
+  <mat-icon matBadge="15" matBadgeColor="warn">home</mat-icon>
+  <!-- Include text description of the icon's meaning for screen-readers -->
+  <span class="cdk-visually-hidden">
+      Example with a home icon with overlaid badge showing the number 15
+    </span>
+</p>

@@ -1,0 +1,10 @@
+Angular Material
+----------------
+-> Create an Angular Project
+     -> ng new first-app
+
+-> ng add @angular/material
+
+Bootstrap -> Navbar
+Prime Ng -> MenuBar
+Angular Material -> Toolbar
