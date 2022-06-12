@@ -12,14 +12,14 @@ export class ProdCartComponent implements OnInit {
 
   public products:IProduct[] = [
     {
-      sno : 'AA0021',
-      name : 'Apple Watch',
-      image : 'https://images-na.ssl-images-amazon.com/images/I/61yeJbZkwmL._SL1500_.jpg',
-      price : 1850,
-      qty : 2
+      sno : 'AA0022',
+      name : 'Mi Watch',
+      image : 'https://images-na.ssl-images-amazon.com/images/I/61OUIIXnPqL._AC_SX569_.jpg',
+      price : 1950,
+      qty : 3
     },
     {
-      sno : 'AA0022',
+      sno : 'AA0023',
       name : 'Mi Watch',
       image : 'https://images-na.ssl-images-amazon.com/images/I/61OUIIXnPqL._AC_SX569_.jpg',
       price : 1950,
